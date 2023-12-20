@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./imgs/markbook.png">
+    <title>Bookmark</title>
+    <!-- ====font links====> -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@500&family=Lobster&display=swap" rel="stylesheet">    <!-- =====link main file css===> -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- =====link bootstrap css===> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- =====link css fontawsem====> -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+</head>
+<body class="backgroundcolor">
+    <div class="container  text-center mt-lg-5 ">
+   <div>
+     <h1 class=" py-lg-5 py-3 textcolor mainfont">Bookmarker</h1>
+    <h3 class="py-2 textcolor defualtfont"><i class=" maincolor fa-solid fa-bookmark"></i> Bookmark your favorite sites <i class="maincolor fa-solid fa-bookmark"></i> </h3>
+   </div>
+   <form class="text-left defaultcolor mainfont mb-4 " id="form">
+    <label for="siteName">Site Name</label>
+    <input class="form-control" type="text" id="siteName">
+      <label for="siteURL" class="mt-1">Site URL</label>
+    <input class="form-control" type="text" id="siteURL">
+    <button class="btn mt-3 mb-5 d-flex justify-content-center align-items-center btncolor text-light defualtfont" onclick="add()"> submit</button>
+   </form>
+   <table class="table  ">
+    <thead class="maincolor defualtfont">
+        <tr>
+            <th>Index</th>
+            <th>Website Name</th>
+            <th> Visit</th>
+            <th> Delete</th>
+        </tr>
+    </thead>
+<tbody id="tbody" class="defualtfont">
+   
+</tbody>
+   </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

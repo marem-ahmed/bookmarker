@@ -1,0 +1,40 @@
+:root{
+    --back-ground:#9EC8B9;
+    --text-color:#1B4242;
+    --default-color:#092635;
+    --main-color:#5C8374;
+     --main-font: 'Lobster', sans-serif;;
+    --defualt-font: 'Kalnia', serif;
+;
+
+}
+.mainfont{
+    font-family: var(--main-font);
+}
+.defualtfont{
+    font-family: var(--defualt-font);
+}
+.btncolor{
+    background-color: var(--text-color);
+}
+.backgroundcolor{
+    background-color: var(--back-ground);
+}
+.maincolor{
+    color: var(--main-color);
+}
+.defaultcolor{
+    color: var(--default-color);
+}
+.textcolor{
+    color: var(--text-color);
+}
+.container{
+    h1{
+        border-bottom: dotted var(--main-color);
+    }
+}
+#form .form-control{
+outline: 3px var(--text-color);
+box-shadow: 5px 5px 5px var(--text-color);
+}
